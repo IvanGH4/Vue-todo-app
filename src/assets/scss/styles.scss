@@ -1,0 +1,26 @@
+ul {
+    list-style: none;
+    width: 100%;
+    li {
+        border-left: solid 2px #007bff;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    p {
+        margin: 0;
+    }
+    span, i {
+        cursor: pointer;
+    }
+}
+
+.complete-todo {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.active {
+    opacity: 1.1;
+}
